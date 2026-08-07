@@ -1,0 +1,23 @@
+{
+  "name": "latest-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfolio website for Sourav Kumar — React Native & React.js Developer",
+  "scripts": {
+    "predev": "node scripts/sync-cv.cjs",
+    "dev": "vite",
+    "prebuild": "node scripts/sync-cv.cjs",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.400.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.5.3"
+  }
+}
